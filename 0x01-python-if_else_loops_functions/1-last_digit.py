@@ -10,4 +10,5 @@ elif lastnumber == 0:
     n = "and is 0"
 elif lastnumber < 6:
     n = "and is less than 6 and not 0"
-print(f"Last digit of {number:d} is {lastnumber:d} {n}")
+print(f"Last digit of {number} is {lastnumber} {n}")
+

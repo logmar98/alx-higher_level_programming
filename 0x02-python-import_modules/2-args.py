@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     from sys import argv
     if len(argv) - 1 == 0:
-        chr = "."
+        chr = "s."
     elif len(argv) - 1 == 1:
         chr = ":"
     else:

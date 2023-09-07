@@ -6,7 +6,7 @@ if __name__ == "__main__":
     elif len(argv) - 1 == 1:
         chr = ":"
     else:
-        chr = "s :"
+        chr = "s:"
     print("{} argument{}".format(int(len(argv)) - 1, chr), )
     for i in range(1, int(len(argv))):
         print("{}: {}".format(i, argv[i]))

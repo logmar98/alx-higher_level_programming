@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def raise_exception():
     """
-    just raise exception 
+    just Raise exception 
     """
     raise TypeError
 

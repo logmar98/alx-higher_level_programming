@@ -47,6 +47,9 @@ class Square:
 
     def my_print(self):
         """print a square shap"""
+        if self.__size == 0:
+            print("")
+            return
         for e in range(0, self.__position[1]):
             print("")
         for i in range(0, self.__size):
@@ -54,6 +57,4 @@ class Square:
                 print(" ", end="")
             for s in range(0, self.__size):
                 print("#", end="")
-            print("")
-        if self.__size == 0:
             print("")

@@ -6,5 +6,5 @@ if (arr.length == 0) {
 } else if (arr.length == 1) {
   console.log(0);
 } else {
-  console.log(String(sortedArr[1]));
+  console.log(Number(sortedArr[1]));
 }

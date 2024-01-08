@@ -3,5 +3,5 @@ const args = process.argv[2];
 if (args) {
   console.log(args);
 } else {
-  console.log('No argument');
+  console.log(String('No argument'));
 }
